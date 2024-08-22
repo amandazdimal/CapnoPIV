@@ -21,3 +21,21 @@ These codes rely on the following packages:
 
 ### **Citation** 
 If you use any of the codes listed here, please cite the following paper: 
+
+## Example Instructions
+  1. Download [Anaconda](https://www.anaconda.com/products/navigator) navigator
+  2. Open a Jupyter notebook (version 6.5.2)
+  3. Create a Python 3 notebook (ipykernel)
+  4. Copy and paste the notebook titled "Figure2DE_S7CD_S8CD.ipynb" found in the "Figure 2" folder
+  5. Download and save the Excel files titled "Example_Velocity_Map_X.xlsx" and "Example_Velocity_Map_Y.xlsx" in the same folder as the notebook
+  6. Run the notebook to generate heatmap and quiver plots for the example data
+  7. Repeat steps 3-6 using the same example velocity map files, but copy and paste the notebook titled "Figure4_S7_S8.ipynb" found in the "Figure 4" folder. Only the first cell needs to be run to generate vorticity and divergence plots (the remaining files are the basis for the frequency distribution plots).
+  8. Run the notebook to generate a vorticity plot, CDF plot and frequency distribution plot
+
+## Instructions for creating heatmap and quiver videos using data analyzed by PIV
+  1. Extract velocity maps from the PIV analysis using the MATLAB codes provided
+  2. Open a Jupyter notebook in the same folder as the velocity maps
+  3. Copy and paste the codes in the "Videos" file
+  4. Run the codes and generate .avi timelapses of developing heatmaps and quiver plots
+  5. Save the files and open in ImageJ
+  6. Insert a timestamper for the timelapses and save as .avi file
