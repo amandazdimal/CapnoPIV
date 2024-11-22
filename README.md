@@ -1,4 +1,4 @@
-# CapnoPIV
+# Capno Swarm Analysis
 General description: MATLAB and Python codes used to train and classify swarm data, model swarm behavior, generate velocity maps, and display data from swarming Capnocytophaga PIV analysis
 
 We first used MATLAB for data extraction to generate velocity maps from timelapses of _C. ochracea_ swarms analyzed by partical image velocimetry (PIV). The remainder of the codes shown here were done in Python. Using the velocity maps, we examine different properties of swarm behavior including swarm speed, rotation and direction of movement.
